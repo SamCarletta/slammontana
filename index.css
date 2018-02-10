@@ -3,8 +3,8 @@ body{
 	background-color: black;
 }
 
-.jumbotron{
-	background-color: #2137ae !important;
-	color: white !important;
-	border-radius: 0px !important;
+.container .jumbotron{
+	background-color: #2137ae;
+	color: white;
+	border-radius: 0px;
 }
