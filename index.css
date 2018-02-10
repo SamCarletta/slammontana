@@ -3,6 +3,6 @@ body{
 }
 
 .jumbotron{
-	color: #2137ae;
+	color: #2137ae !important;
 	background-color:none; 
 }
