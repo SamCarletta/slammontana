@@ -9,6 +9,29 @@ body{
     border: 1px solid white;
 }
 
+.navbar {
+    border: 1px dashed white;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+
+.navbar-nav {
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: white;
+	float: right;
+	font-size: 30px;
+	margin-top: -20px;
+}
+
+.nav-link {
+	border: 1px dashed white;
+	padding: 60px;
+}
+
 .container .jumbotron{
     display: block;
 	padding-top: 10px;
@@ -22,9 +45,8 @@ body{
 	background-position: right;
 	background-size: auto 100%;
     background-repeat: no-repeat;
-    text-shadow: grey 0.3em 0.3em 0.3em;
+    text-shadow: grey 0.2em 0.2em 0.2em;
     /*border: 1px dashed white;*/
-
 }
 
 .container h1{
@@ -65,4 +87,3 @@ body{
 	font-family: 'Roboto', sans-serif;
     /*border: 1px dashed white;*/
 }
-
