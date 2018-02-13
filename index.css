@@ -1,13 +1,68 @@
-body{
-	background-color: #FFD700;
-}
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+*/
 
-.container .navbar{
-	background-color: #FFD700;
+body{
+	background-color: black;
+	color: white;
+    border: 1px solid white;
 }
 
 .container .jumbotron{
-	background-color: #2137ae;
+    display: block;
+	padding-top: 10px;
+	background-color: black;
 	color: white;
+	border-color: black;
+	font-family: 'Roboto', sans-serif;
 	border-radius: 0px;
+	margin-bottom: 0px;
+    background-image: url(https://cdn.europosters.eu/image/1300/25671.jpg);
+	background-position: right;
+	background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-shadow: grey 0.3em 0.3em 0.3em;
+    /*border: 1px dashed white;*/
+
 }
+
+.container h1{
+	padding-top: 100px;
+	font-family: 'Lobster', cursive;
+    font-size: 150px;
+    /*border: 1px dashed white;*/
+    top: -100px;
+}
+
+.container h2{
+	font-family: 'Lobster', cursive;
+    font-size: 2em;
+    position: relative;
+    top: -40px;
+    /*border: 1px dashed white;*/
+}
+
+.container h3 {
+	font-size: 30px;
+    margin-top: -20px;
+}
+
+.container .jumbotron p {
+	font-size: 10px;
+}
+
+.btn-primary {
+    color: black;
+    font-family: 'Lobster', cursive;
+    background-color: white;
+    border-color: white;
+}
+
+.container .blurb{
+	padding-top: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+    /*border: 1px dashed white;*/
+}
+
