@@ -6,13 +6,12 @@ font-family: 'Roboto', sans-serif;
 body{
 	background-color: black;
 	color: white;
-    border: 1px solid white;
 }
 
 .navbar {
-    border: 1px dashed white;
+    border: 1px solid white;
     font-family: 'Lobster', cursive;
-    color: white;
+    color: gray;
     font-size: 20px;
 }
 
@@ -24,7 +23,7 @@ body{
 	color: white;
 	float: right;
 	font-size: 30px;
-	margin-top: -20px;
+	margin-top: -25px;
 }
 
 .navbar-brand {
@@ -33,7 +32,6 @@ body{
 }
 
 .nav-link {
-	border: 1px dashed white;
 	padding: 60px;
 	color: white;
 }
