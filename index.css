@@ -27,9 +27,15 @@ body{
 	margin-top: -20px;
 }
 
+.navbar-brand {
+	color: white;
+	font-size: 30px;
+}
+
 .nav-link {
 	border: 1px dashed white;
 	padding: 60px;
+	color: white;
 }
 
 .container .jumbotron{
@@ -86,4 +92,42 @@ body{
 	color: white;
 	font-family: 'Roboto', sans-serif;
     /*border: 1px dashed white;*/
+}
+
+.roster_pic {
+	height: 220px;
+	width: 200px;
+	align-content: center;
+	padding: 10px;
+}
+
+.team {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.player {
+	background: white;
+	color: black;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 5px;
+	float: right;
+}
+
+.player h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 40px
+}
+
+.player h2 {
+	font-family: 'Lobster', cursive;
+	margin: 10px 0;
+	margin-top: -10px;
+}
+
+.player h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	margin-top: -10px;
 }
