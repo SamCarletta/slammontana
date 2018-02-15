@@ -32,7 +32,7 @@ body{
 }
 
 .nav-link {
-	padding: 60px;
+	padding: 30px;
 	color: white;
 }
 
@@ -105,12 +105,22 @@ body{
 }
 
 .player {
-	background: white;
+	background: gray;
 	color: black;
 	text-align: center;
 	margin: 10px 10px;
 	padding: 5px;
 	float: right;
+	opacity: .8;
+}
+
+.player:hover {
+	background: gray;
+	color: black;
+	opacity: 1;
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .player h1 {
@@ -122,6 +132,7 @@ body{
 	font-family: 'Lobster', cursive;
 	margin: 10px 0;
 	margin-top: -10px;
+	color: white;
 }
 
 .player h3 {
@@ -129,3 +140,37 @@ body{
 	font-size: 15px;
 	margin-top: -10px;
 }
+
+.recruitment {
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+.media_list {
+	text-align: center;
+	list-style-type: none;	
+	margin-top: 77px;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+.social {
+	display: inline-block;
+	margin: 10px;
+}
+
+a {
+ 	color: inherit;
+    text-decoration: none;	
+}
+
+.social:hover {
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
